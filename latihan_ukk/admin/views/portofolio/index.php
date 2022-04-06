@@ -1,6 +1,11 @@
 <?php
-  require 'functions.php';
-  $user = mysqli_fetch_assoc($hasil);
+include("koneksi.php");
+include("funtion/contact.php");
+
+save_contact();
+?>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
